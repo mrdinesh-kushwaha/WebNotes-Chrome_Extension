@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebNotes</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Chrome Extension</p>
+        <h1>WebNotes</h1>
+        <p>Capture & Save Website Notes</p>
+        <p class="subtitle">Capture website paragraphs and keep smart, persistent notes.</p>
+      </div>
+      <button id="new-note-btn" class="primary">+ Quick Note</button>
+    </header>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="composer card">
+      <textarea id="draft-note" placeholder="Write your own note here. Draft auto-saves even if you close Chrome."></textarea>
+      <div class="composer-actions">
+        <input id="draft-tags" type="text" placeholder="tags: system design, java, interview" />
+        <button id="save-draft-btn" class="primary">Save Draft as Note</button>
+      </div>
+    </section>
+
+    <section class="filters card">
+      <input id="search-input" type="text" placeholder="Search text, title, tags, domain..." />
+      <div class="filter-row">
+        <select id="filter-type">
+          <option value="all">All types</option>
+          <option value="selection">Selections</option>
+          <option value="paragraph">Paragraphs</option>
+          <option value="manual">Manual notes</option>
+        </select>
+        <select id="filter-domain">
+          <option value="all">All sites</option>
+        </select>
+        <select id="sort-by">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="favorites">Favorites first</option>
+          <option value="site">Group by site</option>
+        </select>
+      </div>
+      <div class="filter-row toggles">
+        <label><input id="show-favorites" type="checkbox" /> Favorites only</label>
+        <label><input id="show-archived" type="checkbox" /> Show archived</label>
+      </div>
+    </section>
+
+    <section class="actions-row">
+      <button id="export-md-btn">Export Markdown</button>
+      <button id="export-json-btn">Backup JSON</button>
+      <label class="import-btn">
+        Import JSON
+        <input id="import-json-input" type="file" accept="application/json" hidden />
+      </label>
+      <button id="clear-all-btn" class="danger ghost">Delete All</button>
+    </section>
+
+    <section id="notes-list" class="notes"></section>
+  </div>
+
+  <template id="note-template">
+    <article class="note-card card">
+      <div class="note-top">
+        <span class="badge source-badge"></span>
+        <span class="badge domain-badge"></span>
+        <button class="icon-btn favorite-btn" title="Favorite">☆</button>
+      </div>
+      <h3 class="page-title"></h3>
+      <p class="summary"></p>
+      <blockquote class="snippet"></blockquote>
+      <textarea class="personal-note" placeholder="Add your own thoughts here..."></textarea>
+      <div class="tags"></div>
+      <a class="source-link" target="_blank" rel="noreferrer">Open source</a>
+      <div class="meta"></div>
+      <div class="note-actions">
+        <button class="copy-btn">Copy</button>
+        <button class="archive-btn">Archive</button>
+        <button class="delete-btn danger">Delete</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

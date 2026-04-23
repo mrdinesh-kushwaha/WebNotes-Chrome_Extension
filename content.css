@@ -1,0 +1,25 @@
+#snippet-sage-toolbar {
+  position: absolute;
+  z-index: 2147483647;
+  display: none;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 12px;
+  background: #111827;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+#snippet-sage-toolbar button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: white;
+  color: #111827;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#snippet-sage-toolbar button:hover {
+  transform: translateY(-1px);
+}
