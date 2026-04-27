@@ -2,17 +2,26 @@
 
 WebNotes – Capture & Save Website Notes is a Chrome extension that lets you save selected text or the surrounding paragraph from any website and manage everything in a persistent side panel.
 
+## 📌 Why did I create this Chrome Extension?✅
 
-## 🔮 Future Improvements
+While learning from blogs, documentation, and tutorials, it is often difficult to quickly save important content without switching between applications.
 
-- 🤖 Keep Notes with yours 
-- ☁️ Cloud sync (Google Drive / Firebase)  
-- 📁 Folder-based organization  
-- 🔍 Smart tagging  
+WebNotes solves this problem by allowing users to capture useful content directly from any webpage and store it instantly for future reference.
 
 ---
 
-### 🔹 Project Output / Working Demo
+## 🔮 Features
+
+- 🤖 Keep Notes with yours 
+- 📁 Folder-based organization  
+- 🔍 Smart tagging
+- 🏷 Tag-based organization
+- ⭐ Mark favorites
+- 🗂 Archive notes
+
+---
+
+### 🔹Working Demo
 
 
 #### 1.1 Text Selection with Floating Toolbar
@@ -85,16 +94,6 @@ snippet-sage/
    - use the floating toolbar -> **Save** or **Paragraph**
 9. Click the extension icon to open the side panel.
 
-## Interview Talking Points
-
-- Built with **Manifest V3** and **service worker architecture**.
-- Used **content scripts** for webpage text extraction.
-- Used **chrome.storage.local** for persistent offline storage.
-- Designed a **side-panel based UX** instead of a basic popup for better long-form note management.
-- Added **manual draft autosave**, **Markdown export**, and **JSON backup/restore** to make the product practical.
-- Implemented multiple note sources: selected text, paragraph capture, and manual notes.
-- Focused on real product thinking, not just API usage.
-
 ## Possible Future Improvements
 
 - AI summary / auto-tag generation.
@@ -103,43 +102,6 @@ snippet-sage/
 - Screenshot capture with `chrome.tabs.captureVisibleTab()`.
 - IndexedDB for very large note collections.
 =======
-# 🚀 WebNotes – Capture & Save Website Notes
-
-A powerful Chrome Extension to capture selected text or paragraphs from any website and store them as persistent notes with search, tags, favorites, and export support.
-
----
-
-## 📌 Problem Statement
-
-While learning from blogs, documentation, and tutorials, it is often difficult to quickly save important content without switching between applications.
-
-WebNotes solves this problem by allowing users to capture useful content directly from any webpage and store it instantly for future reference.
-
----
-
-## 🎯 Features
-
-### ✨ Core Features
-- 📌 Save selected text from any website
-- 📄 Capture full paragraph near selection
-- 📝 Create manual notes
-- 💾 Persistent storage using `chrome.storage.local`
-
-### 🔍 Note Management
-- 🔎 Search notes
-- 🏷 Tag-based organization
-- ⭐ Mark favorites
-- 🗂 Archive notes
-
-### 📤 Data Handling
-- 📥 Backup notes (JSON)
-- 📤 Export notes (Markdown)
-- 🔁 Restore notes
-
-### ⚡ UX Enhancements
-- 📌 Floating toolbar on text selection
-- 📂 Side panel UI for better note management
-- 💡 Draft autosave
 
 ---
 
@@ -199,7 +161,7 @@ webnotes/
 ## ⚙️ Installation (Local Setup)
 
 1. Clone this repository:
-git clone https://github.com/your-username/webnotes.git
+git clone https://github.com/mrdinesh-kushwaha/WebNotes-Chrome_Extension/
 
 2. Open Chrome and go to:
 chrome://extensions/
