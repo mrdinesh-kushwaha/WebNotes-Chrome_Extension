@@ -1,4 +1,4 @@
-# WebNotes – Capture & Save Website Notes - Chrome Extension
+# WebNotes - Chrome Extension
 
 WebNotes – Capture & Save Website Notes is a Chrome extension that lets you save selected text or the surrounding paragraph from any website and manage everything in a persistent side panel.
 
@@ -12,12 +12,17 @@ WebNotes solves this problem by allowing users to capture useful content directl
 
 ## 🔮 Features
 
-- 🤖 Keep Notes with yours 
-- 📁 Folder-based organization  
-- 🔍 Smart tagging
-- 🏷 Tag-based organization
-- ⭐ Mark favorites
-- 🗂 Archive notes
+- Save selected text from any website.
+- Save the full paragraph near the selected text.
+- Floating mini-toolbar appears when you select text.
+- Right-click context menu support.
+- Persistent storage using `chrome.storage.local`.
+- Manual note composer with auto-saved draft.
+- Favorite, archive, search, filter, and sort notes.
+- Export notes to Markdown.
+- Backup and restore with JSON import/export.
+- Source URL, page title, domain, timestamps, and tags.
+- Keyboard shortcut to open side panel.
 
 ---
 
@@ -51,20 +56,6 @@ WebNotes solves this problem by allowing users to capture useful content directl
 ![Extension Home](screenshots/image2.5.png)
 
 ---
-
-## Features
-
-- Save selected text from any website.
-- Save the full paragraph near the selected text.
-- Floating mini-toolbar appears when you select text.
-- Right-click context menu support.
-- Persistent storage using `chrome.storage.local`.
-- Manual note composer with auto-saved draft.
-- Favorite, archive, search, filter, and sort notes.
-- Export notes to Markdown.
-- Backup and restore with JSON import/export.
-- Source URL, page title, domain, timestamps, and tags.
-- Keyboard shortcut to open side panel.
 
 ## Project Structure
 
@@ -213,5 +204,5 @@ This project is open-source and available under the MIT License.
 **Dinesh Kushwaha**
 
 - 💼 Software Engineer (Backend / Java)  
-- 📧 your-dineshkushwaha1312@gmail.com  
+- 📧 dineshkushwaha1312@gmail.com  
 - 🔗 https://www.linkedin.com/in/mrdinesh-kushwaha/
