@@ -2,6 +2,47 @@
 
 WebNotes – Capture & Save Website Notes is a Chrome extension that lets you save selected text or the surrounding paragraph from any website and manage everything in a persistent side panel.
 
+
+## 🔮 Future Improvements
+
+- 🤖 Keep Notes with yours 
+- ☁️ Cloud sync (Google Drive / Firebase)  
+- 📁 Folder-based organization  
+- 🔍 Smart tagging  
+
+---
+
+### 🔹 Project Output / Working Demo
+
+
+#### 1.1 Text Selection with Floating Toolbar
+![Text Selection and Toolbar](screenshots/image1.1.png)
+
+#### 1.2 Notes Saved / Output View
+![Saved Notes Output](screenshots/image1.2.png)
+
+### 🔹 How to Use the Extension (Step by Step)
+
+#### 2.0 Open Chrome Extensions Page / Enable Developer Mode
+![Open Chrome Extensions](screenshots/image2.0.png)
+
+#### 2.1 Enable Developer Mode ( ON )
+![Enable Developer Mode](screenshots/image2.1.png)
+
+#### 2.2 Click Load Unpacked
+![Click Load Unpacked](screenshots/image2.2.png)
+
+#### 2.3 Select the Project Folder
+![Select Project Folder](screenshots/image2.3.png)
+
+#### 2.4 Extension Loaded Successfully with Icon
+![Extension Loaded with Icon](screenshots/image2.4.png)
+
+#### 2.5 Extension Home / Main View
+![Extension Home](screenshots/image2.5.png)
+
+---
+
 ## Features
 
 - Save selected text from any website.
@@ -196,47 +237,6 @@ chrome://extensions/
 - Message passing between components  
 - DOM manipulation and event handling  
 - Persistent storage using Chrome APIs  
-
----
-
-## 🔮 Future Improvements
-
-- 🤖 AI-based note summarization  
-- ☁️ Cloud sync (Google Drive / Firebase)  
-- 📁 Folder-based organization  
-- 🔍 Smart tagging  
-- 🌙 Dark mode  
-
----
-
-### 🔹 Project Output / Working Demo
-
-
-#### 1.1 Text Selection with Floating Toolbar
-![Text Selection and Toolbar](screenshots/image1.1.png)
-
-#### 1.2 Notes Saved / Output View
-![Saved Notes Output](screenshots/image1.2.png)
-
-### 🔹 How to Use the Extension (Step by Step)
-
-#### 2.0 Open Chrome Extensions Page / Enable Developer Mode
-![Open Chrome Extensions](screenshots/image2.0.png)
-
-#### 2.1 Enable Developer Mode ( ON )
-![Enable Developer Mode](screenshots/image2.1.png)
-
-#### 2.2 Click Load Unpacked
-![Click Load Unpacked](screenshots/image2.2.png)
-
-#### 2.3 Select the Project Folder
-![Select Project Folder](screenshots/image2.3.png)
-
-#### 2.4 Extension Loaded Successfully with Icon
-![Extension Loaded with Icon](screenshots/image2.4.png)
-
-#### 2.5 Extension Home / Main View
-![Extension Home](screenshots/image2.5.png)
 
 ---
 
